@@ -32,6 +32,4 @@ jobs:
         run: poetry build
 
       - name: Publish to PyPI
-        env:
-          POETRY_PYPI_TOKEN_PYPI: pypi-AgEIcHlwaS5vcmcCJDBhN2RjMWM1LWZmN2ItNDk5My1hNzIxLWY1ZTNmYmRhNmY2NgACKlszLCIxZjMxNzAxMS03M2Y1LTQyM2MtOTIyNC03ZTBlNzNkNDE2ZmIiXQAABiA4o0tlslo-D9QP-v2SgkNHVdEgcJj1HrNp8oLmKIUwFg
-        run: poetry publish --build --username __token__ --password $POETRY_PYPI_TOKEN_PYPI
+        run: poetry publish --build --username __token__ --password pypi-AgEIcHlwaS5vcmcCJDBhN2RjMWM1LWZmN2ItNDk5My1hNzIxLWY1ZTNmYmRhNmY2NgACKlszLCIxZjMxNzAxMS03M2Y1LTQyM2MtOTIyNC03ZTBlNzNkNDE2ZmIiXQAABiA4o0tlslo-D9QP-v2SgkNHVdEgcJj1HrNp8oLmKIUwFg
